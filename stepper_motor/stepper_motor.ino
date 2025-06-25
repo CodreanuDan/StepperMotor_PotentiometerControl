@@ -23,7 +23,7 @@ const uint8_t Stepper_CtrlPorts[] = {11, 10, 9, 8};
 uint16_t full_rotation = 2048;
 
 /* Time between steps 5ms-10ms-20ms (200Hz-100Hz-50Hz)*/
-byte step_time = 10;
+byte step_time = 20;
 
 #define POT_PIN A0
 
@@ -85,8 +85,17 @@ void Stepper_MoveOneStep(bool direction)
     {
         volatile uint8_t out_val = ((out & (0x01 << i)) ? HIGH : LOW);
         digitalWrite(Stepper_CtrlPorts[i], out_val);
+        /* To visualize on Serial Plotter */
+        Serial.print("Pin");
+        Serial.print(i);
+        Serial.print(":");
+        Serial.print(out_val);
+        if (i < STEPPER_NR_OF_PORTS - 1)
+        {
+            Serial.print("  "); 
+        }
     }
-
+    Serial.println();
 }
 
 void Stepper_MoveNSteps(bool direction, uint16_t steps, byte ms)
