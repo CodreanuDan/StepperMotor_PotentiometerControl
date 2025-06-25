@@ -62,3 +62,9 @@ After movement, the **reference point is updated** to the new potentiometer valu
 
 ---
 
+### 🌀 **28BYJ-48 Stepper Motor**
+![77db3b053d9e8146c8a895df04c593f7](https://github.com/user-attachments/assets/f51b1b94-9f12-4cba-98cc-26287edd68c9)
+
+### 🔌 **ULN2003 Motor Driver Module**
+![Arduino-DC-stepper-motor-driver-circuit-600x365](https://github.com/user-attachments/assets/313490bf-3071-4214-9ef3-0816d0b3fe84)
+
