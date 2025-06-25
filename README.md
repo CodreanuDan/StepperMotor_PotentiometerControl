@@ -54,5 +54,11 @@ After movement, the **reference point is updated** to the new potentiometer valu
 | `Stepper_DetectCommand()`    | Compares new and old potentiometer values to decide whether to move         |
 | `Stepper_MoveByCommand()`    | Main logic to read input, detect changes, and trigger movement accordingly  |
 
+### 📈 Serial Plotter View
+![Serial_Plotter](https://github.com/user-attachments/assets/e10c7fda-72e2-4311-91e3-07307c9b309c)
+
+### 💻 Serial Monitor View
+![Screenshot 2025-06-25 215825](https://github.com/user-attachments/assets/6003e6e2-4005-47b7-ad98-3ddf0eafbe98)
+
 ---
 
