@@ -31,8 +31,8 @@ After movement, the **reference point is updated** to the new potentiometer valu
 
 ### Components Used:
 
-- 🌀 **28BYJ-48 Stepper Motor**
-- 🔌 **ULN2003 Motor Driver Module**
+- 🌀 **28BYJ-48 Stepper Motor**: [Datasheet](https://www.mouser.com/datasheet/2/758/stepd-01-data-sheet-1143075.pdf?srsltid=AfmBOoolEo83boUwfMHi0TjeZObm1F_wYZbrxmfF2AxUn51YxAvZe0lU)
+- 🔌 **ULN2003 Motor Driver Module**: [Datasheet](https://www.hadex.cz/spec/m513.pdf)
 - 🎚️ **10kΩ Potentiometer**
 - 💻 **Arduino Uno**
 - Breadboard + Jumper wires
